@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tìm kiếm sản phẩm</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tìm kiếm sản phẩm</h1>
+        <div id="searchForm">
+            <input type="text" id="searchInput" placeholder="Nhập từ khóa...">
+            <select id="categorySelect">
+                <option value="">Tất cả loại</option>
+                <option value="Loại 1">Loại 1</option>
+                <option value="Loại 2">Loại 2</option>
+                <option value="Loại 3">Loại 3</option>
+            </select>
+            <input type="number" id="priceInput" placeholder="Nhập giá tiền">
+            <button id="searchButton">Tìm kiếm</button>
+        </div>
+        <ul id="productList"></ul>
+        <p id="noResults" class="hidden">Không có sản phẩm phù hợp</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
